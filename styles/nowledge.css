@@ -97,6 +97,7 @@ header #banner .back-image{
 }
 
 #banner .banner-info .info-container{
+    width: 85%;
     max-width: 1360px;
     margin: 0px auto;
     text-align: center;
@@ -146,3 +147,131 @@ header #banner .back-image{
     padding-top: 32px;
 }
 
+#notes{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #f9555510;
+}
+
+#notes .notes-container .notes-heading h2{
+    width: 1360px;
+    height: 117px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700px;
+    text-transform: capitalize;
+}
+
+#notes .notes-container .notes-heading p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-top: 16px;
+}
+
+#notes .notes-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-top: 44px;
+}
+
+#notes .notes-box .note-card{
+    width: 322px;
+    height: 300px;
+    padding-top: 44px;
+    background-color: #FFFFFF;
+}
+
+#notes .notes-box .note-card img{
+    height: 32px;
+    width: 32px;
+    border: none;
+    border-radius: 100%;
+}   
+
+.bg-orange{
+    background-color: #F95555;
+    border: none;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+}
+
+#notes .notes-box .note-card .note-heading{
+    margin: 0 auto;
+    padding-top: 16px;
+    color: #001931;
+    width: 274px;
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+#notes .notes-box .note-card p{
+    margin: 0 auto;
+    padding-top: 16px;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    width: 274px;
+}
+
+#solution{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+#solution .solution-image img{
+    height: 600px;
+    width: 600px;
+}
+
+#solution .solution-info{
+    padding-top: 101.5px;
+    width: 700px;
+}
+
+#solution .solution-info .solution-header{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #30B868;
+}
+
+#solution .solution-info .solution-header-big{
+    padding-top: 16px;
+    font-size: 48px;
+    font-weight: 700px;
+    color: #001931;
+}
+
+#solution .solution-info .solution-para{
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+    line-height: 20px;
+}
+
+#solution .solution-info .solution-list{
+    padding-top: 40px;
+}
+
+#solution .solution-info .solution-list .flex-list{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding-top: 16px;
+}
+
+#solution .solution-info .solution-list .flex-para-padding{
+    color: #001931;
+}
