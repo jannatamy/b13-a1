@@ -315,6 +315,10 @@ header #banner .back-image{
     color: #FFFFFF;
 }
 
+#ready .btn-small:hover{
+    background-color: limegreen;
+}
+
 #ready .ready-end{
     padding-top: 16px;
     color: #627382;
@@ -323,3 +327,87 @@ header #banner .back-image{
     line-height: 20px;
     padding-bottom: 80px;
 }
+
+#footer{
+    background-color: #001931;
+}
+
+#footer .footer-flex{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 790px;
+    padding-top: 120px;
+}
+
+#footer .footer-flex .footer-logo{
+    width: 350px;
+    height: 60px;
+}
+
+#footer .footer-flex .footer-logo img{
+    width: 139px;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+#footer .footer-flex .footer-icons{
+    width: 220px;
+    height: 64px;
+}
+
+#footer .footer-flex .footer-heading{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+}
+
+#footer .footer-flex .footer-icons .icon-lists{
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+#footer .footer-flex .footer-icons .icon-lists li{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+
+}
+#footer .footer-flex .footer-icons .icon-lists li a{
+    align-items: center;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    color: #000000;
+
+}
+
+#footer .footer-line{
+    width: 85%;
+    max-width: 1360px;
+    margin: 80px auto 0;
+    
+}
+  
+#footer .footer-copyright{
+    width: 85%;
+    max-width: 1360px;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
