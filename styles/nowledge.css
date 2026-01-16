@@ -118,7 +118,8 @@ header #banner .back-image{
 
 .big-header{
     max-width: 770px;
-    font-size: 84px;
+    font-size: 72px;
+    line-height: 84px;
     font-weight: 600px;
     padding-top: 16px;
     opacity: 90%;
@@ -235,7 +236,8 @@ header #banner .back-image{
 }
 
 #solution .solution-info{
-    padding-top: 101.5px;
+    /* padding-top: 101.5px; */
+    margin: auto 0px;
     width: 700px;
 }
 
