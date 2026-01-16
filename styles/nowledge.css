@@ -106,16 +106,21 @@ header #banner .back-image{
 
 .lil-header{
     max-width: 229px;
+    height: 36px;
     background-color: #FFFFFF;
     border: none;
     border-radius: 1000px;
     color: #30B868;
     font-size: 16px;
     font-weight: 500px;
-    padding: 8px 12px;
+    padding: 8px 12px 8px 6px;
     margin: 0 auto;
 }
 
+.nav-circle{
+    width: 16px;
+    height: 16px;
+}
 .big-header{
     max-width: 770px;
     font-size: 72px;
