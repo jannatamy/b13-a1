@@ -290,7 +290,6 @@ header #banner .back-image{
     color: 001931;
     font-size: 40px;
     font-weight: 700px;
-    /* padding-top: 80px; */
 }
 
 #ready .ready-para{
@@ -394,7 +393,6 @@ header #banner .back-image{
     width: 85%;
     max-width: 1360px;
     margin: 80px auto 0;
-    
 }
   
 #footer .footer-copyright{
