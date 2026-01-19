@@ -192,20 +192,22 @@ header #banner .back-image{
     background-color: #FFFFFF;
 }
 
-#notes .notes-box .note-card img{
-    height: 32px;
-    width: 32px;
-    border: none;
-    border-radius: 100%;
-}   
-
 .bg-orange{
-    background-color: #F95555;
-    border: none;
-    border-radius: 100%;
+    margin: 0 auto;
     height: 60px;
     width: 60px;
+    background-color: #F95555;
+    border: none;
+    border-radius: 100%;  
 }
+
+#notes .notes-box .note-card .bg-orange img{
+    margin-top: 13.61px;
+    height: 32px;
+    width: 32px;
+}   
+
+
 
 #notes .notes-box .note-card .note-heading{
     margin: 0 auto;
